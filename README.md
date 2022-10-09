@@ -65,7 +65,7 @@ Model에서는 Speaker ID, Speech Text Feature를 통해 Feature Vector를 생�
 `Gesture-Generation-from-Multimodal-Context`의 `scripts/synthesize.py`파일에서 examples 리스트에 동작 생성을 원하는 텍스트를 입력한다.
 
 ```
-python scripts/synthesize.py from_text [trained model path] `{en-male, en-female}
+python scripts/synthesize.py from_text [trained model path] {en-male, en-female}
 ```
 
 위의 명령어 실행을 통해 동작 생성 결과를 `mp4` 형식으로 얻을 수 있다. 해당 결과는 `output/generation_results` 디렉토리에서 확인할 수 있다.
