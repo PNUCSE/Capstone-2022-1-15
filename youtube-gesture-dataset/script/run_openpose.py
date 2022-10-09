@@ -24,7 +24,7 @@ from config import my_config
 
 # maximum accuracy, too slow (~1fps)
 #OPENPOSE_OPTION = "--net_resolution -1x736 --scale_number 4 --scale_gap 0.25 --hand --hand_scale_number 6 --hand_scale_range 0.4 --face"
-OPENPOSE_OPTION = "--net_resolution -1x368 --number_people_max 1"
+OPENPOSE_OPTION = "--net_resolution -1x368 --number_people_max 3"
 
 OUTPUT_SKELETON_PATH = my_config.WORK_PATH + "/temp_skeleton_raw"
 OUTPUT_VIDEO_PATH = my_config.WORK_PATH + "/temp_skeleton_video"

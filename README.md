@@ -42,4 +42,30 @@ Model에서는 Speaker ID, Speech Text Feature를 통해 Feature Vector를 생�
 
 ## 4. 시연 영상
 
+![시연 영상](https://user-images.githubusercontent.com/78212016/194741191-80ea634e-b6d0-49e3-8bd7-3ea44428e0fb.gif)
+
 ## 5. 사용법
+
+### 1. Google STT API 설정 및 Key 생성
+
+`Google-Speech-To-Text` 디렉토리의 `README` 파일을 참고하여 Google STT API 설정 및 Key를 생성하고 생성한 키를 `Gesture-Generation-from-Multimodal-Context`의 `scripts/synthesize.py`에 환경변수로 해당 Key를 등록한다.
+
+### 2. 가상환경 설정
+
+`Gesture-Generation-from-Multimodal-Context`의 `requirements.txt`의 실행을 통해 필요한 패키지를 다운받는다. 아래의 항목의 별도 설치가 필요할 수 있다.
+
+- `pyarrow`
+- `google-cloud-speech`
+- `umap`
+- `torchvision`
+- `ffmpeg`
+
+### 3. 실행 및 결과 확인
+
+`Gesture-Generation-from-Multimodal-Context`의 `scripts/synthesize.py`의 examples에 동작 생성을 원하는 텍스트를 입력한다.
+
+```
+python scripts/synthesize.py from_text [trained model path] `{en-male, en-female}
+```
+
+해당 명령어 실행을 통해 동작 생성 결과를 `mp4` 형식으로 얻을 수 있다. 해당 결과는 `output/generation_results` 디렉토리에서 확인할 수 있다.
