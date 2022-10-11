@@ -13,3 +13,7 @@ configargparse
 soundfile
 pygame
 google-cloud-texttospeech==1.0.1
+pyarrow
+google-cloud-speech
+umap
+torchvision

@@ -52,13 +52,17 @@ Model에서는 Speaker ID, Speech Text Feature를 통해 Feature Vector를 생�
 
 ### 2. 가상환경 설정
 
-`Gesture-Generation-from-Multimodal-Context`의 `requirements.txt`의 실행을 통해 필요한 패키지를 다운받는다. 아래의 항목의 별도 설치가 필요할 수 있다.
+`Gesture-Generation-from-Multimodal-Context` 프로젝트 실행을 위해 필요한 파이썬 패키지들을 설치한다.
 
-- **pyarrow**
-- **google-cloud-speech**
-- **umap**
-- **torchvision**
-- **ffmpeg**
+```shell
+pip install -r requirements.txt
+```
+
+추가적으로 `ffmpeg` 패키지를 설치한다.
+
+```shell
+conda install -c conda-forge ffmpeg
+```
 
 ### 3. 실행 및 결과 확인
 
