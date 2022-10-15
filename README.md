@@ -50,7 +50,13 @@ Model에서는 Speaker ID, Speech Text Feature를 통해 Feature Vector를 생�
 
 `Google-Speech-To-Text` 디렉토리의 `README` 파일을 참고하여 Google STT API 설정 및 Key를 생성하고 생성한 키를 `Gesture-Generation-from-Multimodal-Context`의 `scripts/synthesize.py`에 환경변수로 해당 Key를 등록한다.
 
-### 2. 가상환경 설정
+### 2. Model Download
+
+`Gesture-Generation-from-Multimodal-context/data`의 디렉토릭인 `fasttext`, `h36m` README 파일 링크를 통해 모델을 다운로드합니다.
+
+또한 `output`의 디렉토리인 `trian_h36m_gesture_autoencoder`, `train_multimodal_context`, `train_seq2seq` README 파일 링크를 통해 모델을 다운로드합니다.
+
+### 3. 가상환경 설정
 
 `Gesture-Generation-from-Multimodal-Context` 프로젝트 실행을 위해 필요한 파이썬 패키지들을 설치한다.
 
@@ -64,7 +70,7 @@ pip install -r requirements.txt
 conda install -c conda-forge ffmpeg
 ```
 
-### 3. 실행 및 결과 확인
+### 4. 실행 및 결과 확인
 
 `Gesture-Generation-from-Multimodal-Context`의 `scripts/synthesize.py`파일에서 examples 리스트에 동작 생성을 원하는 텍스트를 입력한다.
 
