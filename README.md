@@ -44,6 +44,8 @@ Model에서는 Speaker ID, Speech Text Feature를 통해 Feature Vector를 생�
 
 ![시연 영상](https://user-images.githubusercontent.com/78212016/194741191-80ea634e-b6d0-49e3-8bd7-3ea44428e0fb.gif)
 
+[![15조 하이브리드 지능형 가상 캐릭터 동작 생성 개발](https://img.youtube.com/vi/Ag0yV7VycPQ/0.jpg)](https://www.youtube.com/watch?v=Ag0yV7VycPQ)
+
 ## 5. 사용법
 
 ### 1. Google STT API 설정 및 Key 생성
